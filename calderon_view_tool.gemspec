@@ -1,11 +1,11 @@
 # coding: utf-8
 lib = File.expand_path('../lib', __FILE__)
 $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
-require 'devcamp_view_tool/version'
+require 'calderon_view_tool/version'
 
 Gem::Specification.new do |spec|
-  spec.name          = "devcamp_view_tool"
-  spec.version       = DevcampViewTool::VERSION
+  spec.name          = "calderon_view_tool"
+  spec.version       = CalderonViewTool::VERSION
   spec.authors       = ["Jordan Hudgens"]
   spec.email         = ["jordan@wow.com"]
 
